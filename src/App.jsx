@@ -7,6 +7,7 @@ import About from "./components/About/About";
 import Service from "./components/Service/Service";
 import Carlist from "./components/Carlist/Carlist";
 import Testimonial from "./components/Testimonial/Testimonial";
+import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 
 const App = () => {
   // Dark Mode feature
@@ -43,6 +44,7 @@ const App = () => {
       <Service />
       <Carlist />
       <Testimonial />
+      <AppStoreBanner />
     </div>
   );
 };
